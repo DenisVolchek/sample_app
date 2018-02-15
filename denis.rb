@@ -1,13 +1,13 @@
 class User
-  attr_accessor :name, :email
+  attr_accessor :denis, :penis
 
   def initialize(attributes = {})
     @denis  = attributes[:name]
-    @penis = attributes[:email]
+    @penis = attributes[:age]
   end
 
   def formatted_email
-    "#{@name} <#{@email}>"
+    "#{@denis} <#{@penis}>"
   end
 end
 
